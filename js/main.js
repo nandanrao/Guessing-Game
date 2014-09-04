@@ -198,10 +198,18 @@ $("form").submit(function(event){
     
     warmToCold($('div#higher .cold'));
     warmToCold($('div#lower .cold'));
+    
+    // End game if user guesses too many times 
+    if (guesses.length > 20) {
+        $("div.blowingit").css('display', 'flex');
+        $("#try-again").click(function(){
+            location.reload();
+        });
+    }
 });
 
 
 // Create a button that shows the answer
-
+    // eh... do we really want that???
 
     

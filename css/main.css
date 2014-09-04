@@ -98,7 +98,7 @@ div.guesses, div.guesses div {
 div#higher > div {
   flex-direction: column-reverse; }
 
-div.repeat-message, div.winner {
+div.repeat-message, div.winner, div.blowingit {
   display: none;
   position: absolute;
   background: #FFF;
@@ -111,9 +111,9 @@ div.repeat-message, div.winner {
   justify-content: center;
   padding-bottom: 3em;
   text-align: center; }
-  div.repeat-message p, div.winner p {
+  div.repeat-message p, div.winner p, div.blowingit p {
     font-size: 3em; }
-  div.repeat-message button, div.winner button {
+  div.repeat-message button, div.winner button, div.blowingit button {
     display: block;
     font-size: 3em;
     padding: .2em;
